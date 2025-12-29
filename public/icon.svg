@@ -1,26 +1,25 @@
 <svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     @media (prefers-color-scheme: light) {
-      .background { fill: black; }
-      .foreground { fill: white; }
-    }
-    @media (prefers-color-scheme: dark) {
       .background { fill: white; }
       .foreground { fill: black; }
     }
+    @media (prefers-color-scheme: dark) {
+      .background { fill: black; }
+      .foreground { fill: white; }
+    }
   </style>
-  <g clip-path="url(#clip0_7960_43945)">
-    <rect class="background" width="180" height="180" rx="37" />
-    <g style="transform: scale(95%); transform-origin: center">
-      <path class="foreground"
-        d="M101.141 53H136.632C151.023 53 162.689 64.6662 162.689 79.0573V112.904H148.112V79.0573C148.112 78.7105 148.098 78.3662 148.072 78.0251L112.581 112.898C112.701 112.902 112.821 112.904 112.941 112.904H148.112V126.672H112.941C98.5504 126.672 86.5638 114.891 86.5638 100.5V66.7434H101.141V100.5C101.141 101.15 101.191 101.792 101.289 102.422L137.56 66.7816C137.255 66.7563 136.945 66.7434 136.632 66.7434H101.141V53Z" />
-      <path class="foreground"
-        d="M65.2926 124.136L14 66.7372H34.6355L64.7495 100.436V66.7372H80.1365V118.47C80.1365 126.278 70.4953 129.958 65.2926 124.136Z" />
-    </g>
+  <!-- Updated to Zuetech running person logo -->
+  <rect class="background" width="180" height="180" rx="37" />
+  <g transform="translate(30, 30) scale(5)">
+    <circle cx="5.5" cy="2.5" r="2.5" class="foreground"/>
+    <path d="M0.5,6 C0.5,6 2.5,7 4.5,7 L8.5,7 C9.33,7 10,7.67 10,8.5 C10,9.33 9.33,10 8.5,10 L6,10 L6,13 L7,13 C7.55,13 8,13.45 8,14 L9,19 C9.13,19.54 8.81,20.08 8.27,20.21 C7.73,20.34 7.19,20.02 7.06,19.48 L6.19,16 L4,16 L4,10 L2.5,10 L2.5,13.5 L0.19,9.09 C-0.03,8.7 -0.06,8.23 0.11,7.82 C0.34,7.22 0.88,6.77 1.5,6.5 Z" class="foreground"/>
+    <rect x="14" y="6" width="6" height="1.5" rx="0.75" class="foreground"/>
+    <rect x="14" y="10" width="6" height="1.5" rx="0.75" class="foreground"/>
+    <rect x="14" y="14" width="6" height="1.5" rx="0.75" class="foreground"/>
+    <rect x="7" y="18" width="5" height="1.5" rx="0.75" class="foreground"/>
+    <rect x="14" y="18" width="6" height="1.5" rx="0.75" class="foreground"/>
+    <rect x="0" y="18" width="5" height="1.5" rx="0.75" class="foreground"/>
+    <path d="M19,1 L23,3.5 L23,8 C23,8.55 22.55,9 22,9 C21.45,9 21,8.55 21,8 L21,5 L19,3.5 C18.6,3.2 18.5,2.6 18.8,2.2 C19.1,1.8 19.7,1.7 20.1,2 Z" class="foreground"/>
   </g>
-  <defs>
-    <clipPath id="clip0_7960_43945">
-      <rect width="180" height="180" fill="white" />
-    </clipPath>
-  </defs>
 </svg>
