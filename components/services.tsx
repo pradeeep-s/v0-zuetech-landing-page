@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card"
-import { Code2, Smartphone, Cloud, Sparkles, BookOpen } from "lucide-react"
+import { Code2, Smartphone, Cloud, Sparkles } from "lucide-react"
 
 export function Services() {
   const services = [
@@ -26,12 +26,6 @@ export function Services() {
       title: "Building Customized Tools",
       description:
         "Develop tailored software tools designed to streamline workflows, automate repetitive tasks, and solve your unique business challenges.",
-    },
-    {
-      icon: BookOpen,
-      title: "Flashcards",
-      description:
-        "Create interactive flashcard applications for learning and retention, perfect for educational platforms and skill-building programs.",
     },
   ]
 
