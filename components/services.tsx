@@ -27,12 +27,6 @@ export function Services() {
       description:
         "Develop tailored software tools designed to streamline workflows, automate repetitive tasks, and solve your unique business challenges.",
     },
-    {
-      icon: Sparkles,
-      title: "Improve UI for Modern",
-      description:
-        "Enhance your existing applications with modern, intuitive UI designs that improve user engagement and create lasting impressions.",
-    },
   ]
 
   return (
