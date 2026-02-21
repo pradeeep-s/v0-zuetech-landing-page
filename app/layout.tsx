@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   title: "Zuetech - Software Development Excellence",
   description:
     "Transform your ideas into powerful digital solutions with Zuetech - expert software development for modern businesses",
-  generator: "v0.app",
+  generator: "ZueTech",
 }
 
 export default function RootLayout({

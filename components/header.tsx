@@ -19,13 +19,17 @@ export function Header({ onContactClick }: HeaderProps) {
       <div className="container mx-auto px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           <div className="flex items-center gap-2">
-            <div className="flex h-10 w-10 items-center justify-center">
-              <svg viewBox="0 0 512 512" className="h-10 w-10" fill="currentColor">
-                <circle cx="117" cy="69" r="69" />
-                <path d="M271 128H122c-42 0-80 23-99 60L1 228c-6 10-1 23 10 28 10 6 23 1 28-10l22-40c13-24 38-39 66-39h49v102c0 29 17 55 43 67l77 34c10 5 22 0 27-10s0-22-10-27l-77-34c-13-6-21-19-21-33V167h55c13 0 23-10 23-23s-10-16-23-16z" />
-                <path d="M235 295c-6-11-20-14-30-9-11 6-14 20-9 30l44 80c8 14 22 24 38 27l83 15c12 2 23-6 25-18s-6-23-18-25l-83-15c-8-2-14-7-19-13l-31-72zM90 341c-6-11-20-14-30-9-11 6-14 20-9 30l29 53c8 14 22 24 38 27l83 15c12 2 23-6 25-18s-6-23-18-25l-83-15c-8-2-14-7-19-13l-16-45zM485 293H362c-13 0-23 10-23 23s10 23 23 23h123c13 0 23-10 23-23s-10-23-23-23zM485 384H362c-13 0-23 10-23 23s10 23 23 23h123c13 0 23-10 23-23s-10-23-23-23zM128 469H5c-13 0-23 10-23 23s10 23 23 23h123c13 0 23-10 23-23s-10-23-23-23zM317 469H194c-13 0-23 10-23 23s10 23 23 23h123c13 0 23-10 23-23s-10-23-23-23zM506 469H383c-13 0-23 10-23 23s10 23 23 23h123c13 0 23-10 23-23s-10-23-23-23z" />
-              </svg>
-            </div>
+            <svg viewBox="0 0 512 512" className="h-10 w-10" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="117" cy="64" r="53" />
+              <path d="M270 128H123c-15 0-28 9-33 23L10 320c-7 18 2 38 20 45 18 7 38-2 45-20l69-174v181l-45 119c-7 18 2 38 20 45 18 7 38-2 45-20l53-140 53 140c7 18 27 27 45 20 18-7 27-27 20-45l-45-119V171l69 174c7 18 27 27 45 20 18-7 27-27 20-45L304 151c-5-14-18-23-33-23z" />
+              <rect x="362" y="298" width="150" height="43" rx="21.5" />
+              <rect x="171" y="384" width="150" height="43" rx="21.5" />
+              <rect x="362" y="384" width="150" height="43" rx="21.5" />
+              <rect x="0" y="470" width="128" height="43" rx="21.5" />
+              <rect x="171" y="470" width="150" height="43" rx="21.5" />
+              <rect x="362" y="470" width="150" height="43" rx="21.5" />
+              <path d="M488 43L384 107v186l104-64c16-10 24-28 24-47V90c0-19-8-37-24-47z" />
+            </svg>
             <span className="text-xl font-bold tracking-tight">zuetech</span>
           </div>
 

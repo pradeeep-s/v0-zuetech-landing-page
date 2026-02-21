@@ -5,7 +5,7 @@ export function Services() {
   const services = [
     {
       icon: Code2,
-      title: "Web Development",
+      title: "Full Stack Web Development",
       description:
         "Build lightning-fast, scalable web applications using React, Next.js, and modern frameworks that deliver exceptional user experiences.",
     },
@@ -28,10 +28,10 @@ export function Services() {
         "Develop tailored software tools designed to streamline workflows, automate repetitive tasks, and solve your unique business challenges.",
     },
     {
-      icon: Cpu,
-      title: "Budget PC Build",
+      icon: Sparkles,
+      title: "Improve UI for Modern",
       description:
-        "Design and assemble high-performance custom PC builds optimized for your specific needs and budget constraints.",
+        "Enhance your existing applications with modern, intuitive UI designs that improve user engagement and create lasting impressions.",
     },
   ]
 
