@@ -4,10 +4,12 @@ import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "Zuetech - Software Development Excellence",
-  description:
-    "Transform your ideas into powerful digital solutions with Zuetech - expert software development for modern businesses",
-  generator: "v0.app",
+   title: "Zuetech",
+  description: "Created with Zuetech",
+  generator: "Zuetech.com",
+  icons: {
+    icon: "/icon.png",
+  },
 }
 
 export default function RootLayout({
