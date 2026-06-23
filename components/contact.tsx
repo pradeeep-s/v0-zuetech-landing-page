@@ -137,7 +137,7 @@ export function Contact() {
                   />
                 </svg>
               ),
-              lines: ["zuetech.com@gmail.com"],
+              lines: ["zueetech@gmail.com"],
             },
             {
               title: "Phone",
@@ -151,7 +151,7 @@ export function Contact() {
                   />
                 </svg>
               ),
-              lines: ["+91 8056407030", "+91 6381507591"],
+              lines: ["+91 8300849910"],
             },
             {
               title: "Location",
