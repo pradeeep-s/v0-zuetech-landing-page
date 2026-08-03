@@ -137,7 +137,7 @@ export function Contact() {
                   />
                 </svg>
               ),
-              lines: ["zueetech@gmail.com"],
+              lines: ["zuetech.info@gmail.com"],
             },
             {
               title: "Phone",
